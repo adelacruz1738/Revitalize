@@ -1,0 +1,65 @@
+.instruct_header {
+  padding-top: 40px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.instruct_container {
+  background: rgba(103, 255, 255, 0.316);
+  border-radius: 5%;
+  box-shadow: 0.1px 0.2px black;
+  padding: 15px;
+}
+
+.instruct_title {
+  font-size: 30px;
+}
+
+.instruct_name {
+  color: white;
+}
+
+#medi_icon {
+  fill: #ffffff;
+  height: 100px;
+  width: 100px;
+}
+
+#headphone_icon {
+  fill: #ffffff;
+  height: 100px;
+  width: 100px;
+}
+
+#think_icon {
+  fill: #ffffff;
+  height: 100px;
+  width: 100px;
+}
+
+.instruct_text {
+  text-align: right;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.start {
+  align-items: center;
+}
+
+.start_button {
+  font: inherit;
+  font-size: large;
+  font-weight: bold;
+  border: 2px solid darkgray;
+  background-color: white;
+  color: #2f4f4f;
+  width: 6rem;
+  height: 3rem;
+  border-radius: 30px;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
+}

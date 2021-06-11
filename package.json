@@ -1,0 +1,46 @@
+{
+  "name": "final_year",
+  "version": "1.0.0",
+  "description": "Meditation Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Adrian Dela Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "antd": "^4.12.3",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^4.5.0",
+    "classnames": "^2.2.6",
+    "config": "^3.3.3",
+    "downloads-folder": "^3.0.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "framer-motion": "^3.7.0",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.11.15",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react-audio-player": "^0.14.0",
+    "react-calendar": "^3.3.1",
+    "redux-devtools-extension": "^2.13.8",
+    "request": "^2.88.2",
+    "server": "^1.0.31",
+    "simple-react-calendar": "^2.2.8",
+    "styled-components": "^5.2.1",
+    "url-loader": "^4.1.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.7"
+  }
+}

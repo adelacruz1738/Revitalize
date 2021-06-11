@@ -1,0 +1,73 @@
+.title {
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+}
+
+#profileButtonMain {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  fill: white;
+  height: 140px;
+  width: 140px;
+}
+
+.signupbox {
+  padding-top: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+.signupbox input {
+  margin-bottom: 10px;
+  width: 150px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 2px 0.5px;
+  font-size: 20px;
+  width: 200px;
+}
+
+.signupbutton {
+  font: inherit;
+  font-size: large;
+  font-weight: bold;
+  border: 2px solid darkgray;
+  background-color: white;
+  color: #2f4f4f;
+  width: 6rem;
+  height: 3rem;
+  border-radius: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
+}
+
+.signupbutton:hover,
+.signupbutton:active {
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.26);
+}
+
+#smallsignup {
+  font-size: 18px;
+  font-weight: bold;
+  font: Segoe UI;
+  color: #2f4f4f;
+  text-decoration: none;
+}
+
+#smalllogin {
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  text-shadow: 0.5px 0.5px grey;
+  text-decoration: none;
+}
+
+.signupbox input::placeholder {
+  color: white;
+}

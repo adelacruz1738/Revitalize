@@ -1,0 +1,41 @@
+.mediT_container {
+    background: rgba(103, 255, 255, 0.316);
+    border-radius: 5%;
+    box-shadow: 0.1px 0.2px black;
+    padding: 15px;
+    margin-top: 10px;
+  }
+  
+  .mediT_title {
+    font-size: 30px;
+  }
+  
+  .mediT_header {
+    padding-top: 40px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 13px;
+  }
+  
+  .w3-container w3-green {
+    width: 50%;
+  }
+  
+  .type_btn {
+    border: 0;
+    background: rgba(103, 255, 255, 0.316);
+    margin-top: 15px;
+    border-radius: 5%;
+    padding: 10px;
+    width: 343px;
+    height: 79px;
+  }
+  
+  .btn_text {
+    color: white;
+  }
+  
+  .dropdown2 {
+    margin-top: 10px;
+  }
+  

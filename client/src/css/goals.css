@@ -1,0 +1,40 @@
+.goal_container {
+  background: rgba(103, 255, 255, 0.316);
+  border-radius: 5%;
+  box-shadow: 0.1px 0.2px black;
+  padding: 15px;
+}
+
+.goal_title {
+  font-size: 30px;
+}
+
+.goals_header {
+  padding-top: 40px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.w3-container w3-green {
+  width: 50%;
+}
+
+.goal_text {
+  font-size: 30px;
+  color: white;
+}
+
+#goal_btn {
+  height: 25px;
+  width: 35px;
+  margin: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+  font-style: bold;
+}
+
+#search_bar_goal {
+  height: 25px;
+  width: 50%;
+  font-size: 20px;
+}

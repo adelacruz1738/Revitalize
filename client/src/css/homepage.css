@@ -1,0 +1,172 @@
+.titlename_hp {
+  left: 16px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 10;
+  position: absolute;
+}
+
+.titlename_hp a {
+  font-size: 20px;
+  text-decoration: none;
+  text-shadow: 0.2px 0.3px black;
+}
+
+#search_bar {
+  color: black;
+  border-radius: 5%;
+  position: absolute;
+  right: 85px;
+  height: 25px;
+}
+
+#searchbtn {
+  position: absolute;
+  right: 50px;
+  color: black;
+  height: 25px;
+  border-radius: 5%;
+  font-size: 15px;
+}
+
+.dropdown button {
+  border: none;
+  position: absolute;
+  right: 10px;
+  width: 20px;
+  height: 17px;
+  transition: 0.3s;
+  background-color: white;
+}
+
+.dropdown div a {
+  display: block;
+  text-decoration: none;
+  padding: 8px;
+  color: black;
+}
+
+.dropdown div {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  visibility: hidden;
+  position: absolute;
+  right: 10px;
+  top: 50px;
+  z-index: 10;
+}
+
+.dropdown:hover div {
+  visibility: visible;
+}
+
+#latest_session {
+  color: black;
+  border-radius: 5%;
+  padding: 5px;
+  height: 120px;
+  width: 150px;
+}
+
+#goals_button {
+  color: black;
+  border-radius: 5%;
+  padding: 5px;
+  height: 120px;
+  width: 150px;
+}
+
+#happy_button {
+  border-radius: 5%;
+  padding: 5px;
+  height: 100px;
+  width: 100px;
+  margin-top: 30px;
+  margin: 7px;
+}
+
+#sad_button {
+  border-radius: 5%;
+  padding: 5px;
+  height: 100px;
+  width: 100px;
+  margin-top: 30px;
+  margin: 7px;
+}
+
+#angry_button {
+  border-radius: 5%;
+  padding: 5px;
+  height: 100px;
+  width: 100px;
+  margin-top: 30px;
+  margin: 7px;
+}
+
+.wrapper {
+  display: grid;
+  gap: 3rem;
+  display: inline-block;
+}
+
+.homepage_block {
+  position: relative;
+  margin-top: 25px;
+}
+
+.homepage_block > div {
+  position: relative;
+  margin-top: 10px;
+}
+
+.homepage_block > div {
+  display: flex;
+  height: 100px;
+}
+
+.navbarstyle {
+  margin-top: 10px;
+}
+
+#moodHeader {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.col1 {
+  float: left;
+  width: 55%;
+  margin: 0;
+}
+
+.col2 {
+  float: right;
+  width: 45%;
+}
+
+.col3 {
+  text-align: center;
+}
+
+.c1,
+.c2 {
+  color: darkcyan;
+  background-color: aqua;
+  background: darkcyan;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+}
+
+.calendarstyle {
+  display: inline-block;
+  text-align: center;
+}
+
+#moodHeader {
+  text-align: center;
+}
+
+#welcome {
+  margin-top: 50px;
+  color: white;
+}

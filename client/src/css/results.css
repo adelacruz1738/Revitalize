@@ -1,0 +1,58 @@
+.results_container {
+  background: rgba(103, 255, 255, 0.316);
+  border-radius: 5%;
+  box-shadow: 0.1px 0.2px black;
+  padding: 15px;
+}
+
+.results_header {
+  padding-top: 40px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.results_box {
+  margin-top: 20px;
+  background: white;
+  border-radius: 5%;
+  box-shadow: 0.1px 0.2px black;
+  padding: 15px;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.result {
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.result_text {
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.icon_box {
+  background: white;
+  border-radius: 5%;
+  box-shadow: 0.1px 0.2px black;
+  padding: 15px;
+  width: 25%;
+  float: left;
+  margin: 20px;
+  margin-top: 45px;
+  text-align: center;
+}
+
+.result_row {
+  display: flex;
+}
+
+.song_name {
+  text-align: center;
+  margin-top: 10px;
+}

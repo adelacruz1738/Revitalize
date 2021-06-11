@@ -1,0 +1,9 @@
+.todo_list > input {
+  text-align: center;
+}
+
+#goal_btn {
+  border-radius: 5%;
+  height: 100px;
+  text-align: center;
+}

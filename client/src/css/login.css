@@ -1,0 +1,36 @@
+#lotuslogo {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  fill: white;
+  height: 100px;
+  width: 120px;
+}
+
+.loginbutton {
+  font: inherit;
+  font-size: large;
+  font-weight: bold;
+  border: 2px solid darkgray;
+  background-color: white;
+  color: #2f4f4f;
+  width: 6rem;
+  height: 3rem;
+  border-radius: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
+}
+
+#titlename {
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+
+#smalllogin2 {
+  font-size: 18px;
+  font-weight: bold;
+  font: Segoe UI;
+  color: #2f4f4f;
+  text-decoration: none;
+}
